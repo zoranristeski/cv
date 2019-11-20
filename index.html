@@ -6,56 +6,94 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Zoran Risteski's Personal Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <img src="images\ZokiCV1.png" alt="Zoki Profile Picture" width="200px" height="270px">
-      </td>
-      <td>
-        <h1>Zoran Risteski</h1>
-        <p>
-          <em>🥋Founder and CEO at <strong><a href="https://www.facebook.com/takedaMKD">TAKEDA</a></strong> martial art school.
-            <br>
-            💻Software Developer at <strong>IDOX Group</strong>.
-            <br>
-            👨‍🏫Teacher at <strong>Semos Education</strong>.
-          </em>
-        </p>
-      </td>
-    </tr>
-  </table>
+  <div class="navContainer">
+    <div class="navigation">
+      <img class="logoImg" src="images\ZokiCV1.png" alt="Zoki Profile Picture">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact me</a>
+    </div>
+  </div>
+  <div class="topContainer">
 
-  <hr>
-  <h3>Accomplishments</h3>
-  <ul>
-    <li>2 degree Ju-Jitsu Black Belt</li>
-    <li>1 degree Real Aikido Black Belt</li>
-    <li>Barchelote degree at FINKI</li>
-    <li>SCRUM Master</li>
-  </ul>
-  <hr>
-  <h3>Skills</h3>
-  <table>
-    <tr>
-      <td>Teaching</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Software Development</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Lidership</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact-me.html">Contact Me</a>
-  <!-- <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" download>Downoad HTML Cheetsheet</a> -->
+    <h1>I'm Zoran Risteski</h1>
+    <h2>a <span class="pro">pro</span>grammer</h2>
+    <img src="images\cloud.png" class="top-cloud" alt="cloud">
+    <img src="images\cloud.png" class="bottom-cloud" alt="cloud">
+    <img src="images\ninja.png" id="ninjaPicture" alt="ninja">
+  </div>
+
+  <div class="middleContainer" id="about">
+    <img src="images\ZokiCV1.png" class="profilePicture" alt="Zoki Profile Picture">
+    <h2>Hello.</h2>
+    <p>
+      <em>I am the founder and CEO of <strong class="takedaLink"><a href="https://www.facebook.com/takedaMKD">TAKEDA</a></strong>🥋 martial art school.
+        <br>
+        I'm an Software Developer at <strong>IDOX Group</strong>💻,
+        <br>
+        and Teacher at <strong>Semos Education</strong>👨‍🏫.
+      </em>
+    </p>
+    <hr>
+    <h2>Accomplishments</h2>
+    <p>
+      Barchelote degree at FINKI <br>
+      SCRUM Master <br>
+      2 degree Ju-Jitsu Black Belt <br>
+      1 degree Real Aikido Black Belt <br>
+    </p>
+
+    <hr id="skills">
+    <h2>Skills</h2>
+    <div class="skillRow">
+      <img class="devImage" src="images\development.png" alt="development">
+      <h3>Software Development ⭐⭐⭐⭐⭐</h3>
+      <p>
+        Think twice, code once. <br> First solve the problem than write code. <br>Self-documented code writer.
+      </p>
+    </div>
+    <div class="skillRow">
+      <img class="teachImage" src="images\teacher.png" alt="teacher">
+      <h3>Teaching ⭐⭐⭐⭐⭐</h3>
+      <p>
+        If you can't explain it to a six year old, you don't understand it yourself. <br>
+        Would you want to be a student in your class? <br>
+        One child, one teacher, one book and one pen can change the world.
+      </p>
+    </div>
+    <div class="skillRow">
+      <img class="leadImage" src="images\team.png" alt="lead">
+      <h3>Lidership ⭐⭐⭐⭐⭐</h3><br>
+      <p>Team is a group of people that trust each other. <br>
+        Build a team so strong you don't know who the boss is.
+      </p>
+    </div>
+
+    <div class="contact-me" id="contact">
+      <hr>
+      <h2> Get In Touch</h2>
+      <h3>Martial Art and Programming <br>are always a good topics to talk about</h3>
+      <a class="btn" href="mailto:zoran_risteski89@hotmail.com">CONTACT ME</a>
+    </div>
+    <!-- <a href="hobbies.html">My Hobbies</a> -->
+    <!-- <a href="https://web.stanford.edu/group/csp/cs21/htmlcheatsheet.pdf" download>Downoad HTML Cheetsheet</a> -->
+  </div>
+
+  <div class="bottomContainer">
+    <a class="footerLink" href="https://www.linkedin.com/in/zoran-risteski-2b977a150/">LinkedIn</a>
+    <a class="footerLink" href="https://www.instagram.com/zokionary/">Instagram</a>
+    <a class="footerLink" href="https://www.facebook.com/zoki.aikidodan">Facebook</a>
+    <p class="copyright">© 2019 Zoran Risteski</p>
+  </div>
+
+
+
 </body>
 
 </html>
